@@ -1,3 +1,5 @@
+const { config } = require('dotenv');
+
 let menuIconEl = document.querySelector(".menu-icon");
 let sidebarEl = document.querySelector(".sidebar");
 let containerEl = document.querySelector(".container");
@@ -5,7 +7,8 @@ const videoCardContainerEl = document.querySelector(".list-container")
 const dotenv = require('dotenv').config();
 
 
-let api_key = process.env.MY_API_TOKEN;
+// let api_key = process.env.MY_API_TOKEN;
+let api_key = config.MY_KEY;
 video_http = "https://www.googleapis.com/youtube/v3/videos?";
 let channel_http = "https://www.googleapis.com/youtube/v3/channels?";
 
