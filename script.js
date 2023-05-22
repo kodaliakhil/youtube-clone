@@ -8,7 +8,7 @@ const dotenv = require('dotenv').config();
 
 
 // let api_key = process.env.MY_API_TOKEN;
-let api_key = config.MY_KEY;
+let api_key = "AIzaSyDI2ZTMxh12ZkL9Z51ZY42cMUTrPu2GvXk";
 video_http = "https://www.googleapis.com/youtube/v3/videos?";
 let channel_http = "https://www.googleapis.com/youtube/v3/channels?";
 
